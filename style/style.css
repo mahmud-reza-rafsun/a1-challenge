@@ -28,6 +28,15 @@
     padding: 15px 0;    
     line-height: 24px;
 }
+.html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background: rgba(255, 223, 0, 0.05);
+}
 
 /* navbar style */
 
@@ -164,4 +173,51 @@
 .t-left button:hover{
     background-color: #0D1321;
     color: #fff;
-}   
+}
+
+/* inspiration style */
+.inspiration-box{
+    width: 97%;
+    border: 2px solid #d4d4d4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px auto;
+}
+.inspiration-box iframe{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* current target style */
+.target{
+    padding: 100px 0;
+}
+.target-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 20px;
+}
+.target-box{
+    width: 33.3%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.target-box h2 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.target-box p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.target-box a{
+    color: rgb(13, 19, 33);
+    text-decoration: underline;
+}
