@@ -95,7 +95,7 @@
 .banner-title p{
     padding: 25px 0;
 }
-.banner-title button{
+.banner-title a{
     color: rgb(13, 19, 33);
     font-size: 17px;
     font-weight: 600;
@@ -104,10 +104,11 @@
     color: #fff;
     background: rgb(13, 19, 33);
     border-radius: 8px;
+    display: inline-block;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.banner-title button:hover{
+.banner-title a:hover{
     background-color: #fff;
     color: #111;
     border: 2px solid rgb(51, 51, 51);
@@ -192,7 +193,7 @@
 
 /* current target style */
 .target{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .target-container{
     display: flex;
@@ -223,7 +224,9 @@
 }
 
 /* support style */
-
+.support{
+    padding-bottom: 50px;
+}
 .support-container{
     background: url('../assets/handshake.jpg') no-repeat center center;
     background-size: cover;
@@ -256,4 +259,22 @@
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
+}
+
+
+/* footer style */
+.footer .max-width{
+    padding: 20px 90px;
+}
+.footer{
+    border-radius: 10px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.f-right img{
+    margin-left: 15px;
 }
